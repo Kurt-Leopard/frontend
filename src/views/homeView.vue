@@ -151,8 +151,7 @@ onMounted(fetchData);
           </RouterLink>
           <RouterLink to="/views/profile" v-if="userProfile">
             <section class="flex items-center">
-              <p> <img :src="`https://hilarious-sfogliatella-c9ed00.netlify.app/src/assets/uploads/${userProfile}`"
-                  class=" rounded-full border   h-10 w-10" alt="">
+              <p> <img :src="`uploads/${userProfile}`" class=" rounded-full border   h-10 w-10" alt="">
               </p>
             </section>
           </RouterLink>
