@@ -112,7 +112,7 @@ onMounted(fetchData);
                         <p class="w-full">A picture helps personalize your account</p>
                     </div>
                     <p class="w-1/3 flex justify-center">
-                        <img :src="'../../src/assets/uploads/' + profile" class="h-12 w-12 rounded-full" alt="">
+                        <img :src="'https://backend-oqk1.onrender.com/images/' + profile" class="h-12 w-12 rounded-full" alt="">
                     </p>
                 </div>
                 <div class="flex items-center w-full border-x p-4 rounded-bl-lg rounded-br-lg">
