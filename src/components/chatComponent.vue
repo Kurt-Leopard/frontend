@@ -61,8 +61,9 @@ const messages = ref(JSON.parse(sessionStorage.getItem('chatMessages')) || []);
 const username = ref(userEmail);
 
 let socket;
-const serverURL = `${window.location.protocol}//${window.location.host.replace(/:\d+$/, '')}`;
-let API_URL = `${serverURL}:3000`;
+// const serverURL = `${window.location.protocol}//${window.location.host.replace(/:\d+$/, '')}`;
+// let API_URL = `${serverURL}:3000`;
+let API_URL = "https://socket-io-svno.onrender.com";
 
 // const URL = `${window.location.protocol}//${window.location.host.replace(/:\d+$/, '')}`;
 let API = "https://backend-oqk1.onrender.com/";
