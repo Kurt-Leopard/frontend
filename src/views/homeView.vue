@@ -151,7 +151,7 @@ onMounted(fetchData);
           </RouterLink>
           <RouterLink to="/views/profile" v-if="userProfile">
             <section class="flex items-center">
-              <p> <img :src="`https://hilarious-sfogliatella-c9ed00.netlify.app/${userProfile}`"
+              <p> <img :src="`https://backend-oqk1.onrender.com/images/${userProfile}`"
                   class=" rounded-full border   h-10 w-10" alt="">
               </p>
             </section>
@@ -181,7 +181,7 @@ onMounted(fetchData);
         </div>
         <RouterLink to="/views/profile" @click="cancelMenu()" v-if="userProfile">
           <div class="flex items-center border-b">
-            <p class=" py-2 px-3 rounded-lg "> <img :src="`/src/assets/uploads/${userProfile}`"
+            <p class=" py-2 px-3 rounded-lg "> <img :src="`https://backend-oqk1.onrender.com/images/${userProfile}`"
                 class=" rounded-full border   mx-1 h-12 w-12" alt="">
             </p>
             <p class="outfit-header text-gray-600 overflow-hidden whitespace-nowrap overflow-ellipsis w-[15ch]">{{
